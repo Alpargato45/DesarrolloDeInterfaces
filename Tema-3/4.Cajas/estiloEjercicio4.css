@@ -30,10 +30,45 @@ body{
 .noticias{
     border: 1px solid black;
     max-width: 200px;
+    float: left;
+    margin-bottom: 20px;
 }
 
 .principalImagenes{
     border: 1px solid black;
-    margin-left: 20px;
-    max-width: 600px;
+    min-width: 850px;
+    float: right;
+}
+
+.cajaIzquierda{
+    border: 1px solid black;
+    max-width: 630px;
+    float: left;
+}
+
+.cajaDerecha{
+    border: 1px solid black;
+    max-width: 200px;
+    float: right;
+}
+
+.imagen1{
+float: left;
+margin-right: 10px;
+}
+
+.footer{
+    margin-bottom: 20px;
+    border: 1px solid black;
+    clear:both;
+}
+
+.enlaces{
+    float: left;
+    margin-left: 5px;
+}
+
+.copyright{
+    float: right;
+    margin-right: 5px;
 }
