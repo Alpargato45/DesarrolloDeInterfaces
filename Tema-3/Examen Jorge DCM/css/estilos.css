@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+
+#primero {
+    background-image: url("../showcase.jpg");
+    display: flex;
+    background-size: cover;
+    height: 1000px;
+    flex-direction: column;
+}
+
+#encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#encabezado h3 {
+    margin: 0;
+}
+
+#encabezadoDerecha {
+    display: flex;
+}
+
+#margen{
+    width: 1300px;
+    align-self: center;
+    margin: 10%;
+}
+
+#imagenesPrimero{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    justify-content: space-between;
+}
+
+#imagenPequeña1Primero{
+    background-image: url('../perseverance.jpg');
+    background-size: cover;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+}
+
+#imagenPequeña2Primero{
+    background-image: url('../missions.jpg');
+    background-size: cover;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+}
+
+#imagenPequeña3Primero{
+    background-image: url('../future.jpg');
+    background-size: cover;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+}
+
+
+
+
+#segundo{
+    background-image: url("../feature.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+}
+
+#tercero{
+    background-image: url("../background-2.jpg");
+    background-size: cover;
+    height: 1700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#columna1{
+    margin-top: 200px;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#columna2{
+    margin-top: 200px;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cuarto{
+    background-image: url("../background-3.jpg");
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
